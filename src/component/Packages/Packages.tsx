@@ -25,12 +25,12 @@ export default function Packages() {
   // const image5= "../../assets/images.jpg"
     const packagesData= [
         {image: "/assets/goa1.jpeg", id:"0", name:"Goa", path:"packages/goa"},
-        {image: "/assets/rajastan.jpg", id:"1", name:"Rajastan", path:"packages/rajastan"},
+        {image: "/assets/rajastan.jpg", id:"1", name:"Rajastan", path:"packages/rajasthan"},
         {image: "/assets/lehladakh.jpeg", id:"2", name:"Leh Ladakh", path:"packages/leh-ladakh"},
         {image: "/assets/nainital.jpeg", id:"3", name:"Nainital", path:"packages/nainital"},
         {image: "/assets/andaman.jpeg", id:"4", name:"Andaman", path:"packages/andaman"},
         {image: "/assets/kashmir.jpeg", id:"5", name:"Kashmir", path:"packages/kashmir"},
-        {image: "/assets/ruofkutch.jpeg", id:"6", name:"Ru of kutch", path:"packages/ruofkutch"},
+        {image: "/assets/ruofkutch.jpeg", id:"6", name:"Run of kutch", path:"packages/runofkutch"},
         {image: "/assets/shimla-manali.jpeg", id:"7", name:"Shimla Manali", path:"packages/shimla-manali"},
     ]
   
