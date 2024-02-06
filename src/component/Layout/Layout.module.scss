@@ -1,0 +1,42 @@
+.top{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 30px;
+}
+.nav {
+    display: flex;
+    justify-content:end;
+
+    li {
+        display: inline;
+        margin: 0 50px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+}
+.logo{
+  border-radius: 90%;
+  background-color: #a2a065;
+  padding: 10px;
+  margin: 10px;
+  font-style: italic;
+  font-family: fantasy;
+  font-size: x-large;
+}
+
+.sideDrawer {
+    display: none;
+  }
+  
+  .drawerList {
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      display: none; 
+    }
+    
+    .sideDrawer {
+      display: block;
+    }
+  }
