@@ -4,7 +4,7 @@ import styles from "./PackageDetails.module.scss";
 import { Grid } from "@mui/material";
 
 interface packageIdProps {
-  packageId: string;
+  packageId: any;
 }
 interface Package {
   image: string;
