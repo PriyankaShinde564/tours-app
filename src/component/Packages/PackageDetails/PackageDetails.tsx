@@ -213,16 +213,14 @@ function PackageDetails({ packageId }: packageIdProps) {
     },
   ];
 
-  const packageData = packagesData.find((packageObj) =>
+  const packageData: any= packagesData.find((packageObj) =>
     packageObj.hasOwnProperty(packageId)
   );
   if (!packageData) {
     return <div>Package not found</div>;
   }
 
-  const { image, id, name, path, about, itinerary, thingsToDo } = packageData[
-    packageId
-  ] as Package;
+  const { image, id, name, path, about, itinerary, thingsToDo } = packageData[packageId] 
 
   return (
     <>

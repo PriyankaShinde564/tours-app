@@ -26,8 +26,6 @@ const Layout = ({ children }: LayoutProps) => {
                 <ul className={styles.nav}>
                     <Link href={"/"}><li>Home</li></Link>
                     <Link href={"/"}><li>About</li></Link>
-                    <Link href={"/"}><li>Technologies</li></Link>
-                    <Link href={"/"}><li>Projects</li></Link>
                     <Link href={"/"}><li>Contact</li></Link>
                 </ul>
             </nav>
