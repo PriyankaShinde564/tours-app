@@ -28,5 +28,60 @@
     justify-self: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+}
+.headName{
+    border-bottom: 3px solid #3e1695;
+    color: #1b89ad;
+    margin: 5% 0;
+}
+.aboutBox{
+    border: 2px solid #470505;
+    margin: 0 15%;
+    padding: 20px;
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.5);
+}
+.thingsToDoBox{
+    width: 100%;
+    border: 2px solid #470505;
+    margin: 0 15%;
+    padding: 20px;
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.5);
+}
+.itinerary{
+    width: 100%;
+    border: 2px solid #470505;
+    margin: 2% 15%;
+    padding: 20px;
+    position: relative;
+}
+.eachItine{
+    display: flex;
+    color: #1b89ad;
+    li{
+        color: black !important;
+        padding-left: 20px;
+    }
+}
+.price{
+    position: static;
+    top: 0;
+    right: 35%;
+    left: 35%;
+    // background-color: #74e662;
+    text-align: center;
+    color: #1b89ad;
+}
+.btnQuote{
+    background-color: #1b89ad;
+    color: azure;
+    margin: 12px;
+    :hover{
+        color: #1b89ad;
+    }
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
 }

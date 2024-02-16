@@ -1,0 +1,46 @@
+.formContianer{   
+    border: 2px solid #470505;
+    margin: 2% 10%;
+    padding: 20px;
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.5);
+    width: 100%;
+    
+}
+.headline{
+    display: flex;
+    justify-content: center;
+    padding:0 0 32px 0;
+}
+.textField{
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    // align-items: center;
+}
+.numberWrapper{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+.numberField{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.btnQuote{
+    background-color: #a2a065;
+    color: black;
+    :hover{
+        color: #1b89ad;
+    }
+    border-radius: 20px;
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.successMsg{
+    text-align: center;
+    color: #7d7905;
+    word-wrap: break-word;
+}

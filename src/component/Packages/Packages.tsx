@@ -11,6 +11,7 @@ import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { packagesList } from "@/assets/contants";
 
 export default function Packages() {
   const router = useRouter();
@@ -22,17 +23,7 @@ export default function Packages() {
     "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5297440765001_5280261645001-vs.jpg?pubId=5104226627001&videoId=5280261645001";
   // const image4 =
   //   "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
-  // const image5= "../../assets/images.jpg"
-    const packagesData= [
-        {image: "/assets/goa1.jpeg", id:"0", name:"Goa", path:"packages/goa"},
-        {image: "/assets/rajastan.jpg", id:"1", name:"Rajastan", path:"packages/rajasthan"},
-        {image: "/assets/lehladakh.jpeg", id:"2", name:"Leh Ladakh", path:"packages/leh-ladakh"},
-        {image: "/assets/nainital.jpeg", id:"3", name:"Nainital", path:"packages/nainital"},
-        {image: "/assets/andaman.jpeg", id:"4", name:"Andaman", path:"packages/andaman"},
-        {image: "/assets/kashmir.jpeg", id:"5", name:"Kashmir", path:"packages/kashmir"},
-        {image: "/assets/ruofkutch.jpeg", id:"6", name:"Run of kutch", path:"packages/runofkutch"},
-        {image: "/assets/shimla-manali.jpeg", id:"7", name:"Shimla Manali", path:"packages/shimla-manali"},
-    ]
+  // const image5= "../../assets/images.jpg";
   
   return (
     <>
@@ -53,7 +44,7 @@ export default function Packages() {
         Explore India in the best possible way with us
       </Grid>
       <Grid container spacing={12} className={styles.cardsContainer}>
-        {packagesData.map(data => ( 
+        {packagesList.map(data => ( 
         <Grid item xs={12} lg={4} key={data.id}>
           <Card className={styles.eachCard}>
             <figure>
