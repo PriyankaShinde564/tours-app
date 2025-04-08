@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Packages />
+    <div style={{backgroundColor: "#e8e8e4"}}><Packages /></div>
+    
   )
 }
